@@ -1,0 +1,19 @@
+{
+  "name": "yuphub-docs",
+  "version": "0.0.1",
+  "description": "yuphub guides and documentation",
+  "main": "index.js",
+  "repository": "ser-gi-o/yuphub-docs",
+  "license": "MIT",
+  "authors": {
+    "name": "yuphub",
+    "email": "team@yuphub.com"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.0"
+  },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  }
+}
