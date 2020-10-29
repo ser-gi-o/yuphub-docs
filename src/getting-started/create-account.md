@@ -7,12 +7,12 @@ Steps to signing up your  yuphub account.
 Click on our Sign Up link
 
 # Step 2:
-![Create Yuphub Account](/images/create_account/sign-up-user.png)
+![Create Yuphub Account](/docs/images/create_account/sign-up-user.png)
 
 Create User Account
 
 # Step 3:
-![Add Business Information](/images/create_account/create-account-location.png)
+![Add Business Information](/docs/images/create_account/create-account-location.png)
 
 Add your business information
 

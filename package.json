@@ -1,6 +1,6 @@
 {
   "name": "yuphub-docs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "yuphub guides and documentation",
   "main": "index.js",
   "repository": "ser-gi-o/yuphub-docs",

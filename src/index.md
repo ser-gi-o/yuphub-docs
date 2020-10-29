@@ -1,9 +1,10 @@
 ---
-home: false
+home: true
 heroImage: /images/logo/favicon-260x260.png
-tagline: 
+heroText: Yuphub User Guides
+tagline: Build a great reputation
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /getting-started/
 
 footer: Made by  with ❤ 
 ---

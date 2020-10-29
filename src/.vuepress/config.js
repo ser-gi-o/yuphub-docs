@@ -40,7 +40,7 @@ module.exports = {
     nav: [
       {
         text: 'Documentation',
-        link: '/'
+        link: '/getting-started/'
       },
       {
         text: 'yuphub',
@@ -55,7 +55,7 @@ module.exports = {
         collapsable: false, // optional, defaults to true
         children: [
           '/getting-started/',
-          '/getting-started/using-yuphub',
+          '/getting-started/create-account',
         ]
       },
       {
@@ -72,7 +72,7 @@ module.exports = {
         children: [
             '/api/',
         ],
-      }
+      },
     ],
   },
 
