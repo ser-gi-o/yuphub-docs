@@ -40,7 +40,7 @@ module.exports = {
     nav: [
       {
         text: 'Documentation',
-        link: '/getting-started/'
+        link: '/meet-yuphub/'
       },
       {
         text: 'yuphub',
@@ -51,11 +51,20 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: 'Meet Yuphub',   // required
+        collapsable: false, // optional, defaults to true
+        children: [
+          '/meet-yuphub/',
+        ]
+      },
+      {
         title: 'Getting Started',   // required
         collapsable: false, // optional, defaults to true
         children: [
           '/getting-started/',
           '/getting-started/create-account',
+          '/getting-started/verify-account',
+          '/getting-started/setup',
         ]
       },
       {
@@ -64,6 +73,32 @@ module.exports = {
         sidebarDepth: 2,    // 2 is max shows h2 and h3
         children: [
           '/review/',
+        ],
+      },
+      {
+        title: 'Contacts',
+        collapsable: false, // optional, defaults to true
+        sidebarDepth: 2,    // 2 is max shows h2 and h3
+        children: [
+          '/contacts/',
+        ],
+      },
+      {
+        title: 'Google My Business',
+        collapsable: false, // optional, defaults to true
+        sidebarDepth: 2,    // 2 is max shows h2 and h3
+        children: [
+          '/google/',
+        ],
+      },
+      {
+        title: 'Automation',
+        collapsable: false, // optional, defaults to true
+        sidebarDepth: 2,    // 2 is max shows h2 and h3
+        children: [
+          '/automation/',
+          '/automation/zapier',
+          '/automation/api',
         ],
       },
       {
